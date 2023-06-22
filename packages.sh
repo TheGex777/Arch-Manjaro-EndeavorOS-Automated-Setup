@@ -23,6 +23,7 @@ packages=(
   nodejs
   npm
   onlyoffice-bin
+  apparmor
 )
 
 # Check if yay is installed, if not, install it
