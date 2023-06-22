@@ -3,6 +3,8 @@
 # Define the packages you want to install
 packages=(
   virtualbox
+  virtualbox-guest-iso
+  virtualbox-host-modules-arch
   clang
   cmake
   ninja
@@ -24,6 +26,10 @@ packages=(
   npm
   onlyoffice-bin
   apparmor
+  gnucash
+  filelight
+  vscodium-bin
+  android-studio
 )
 
 # Check if yay is installed, if not, install it
