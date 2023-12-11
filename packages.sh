@@ -35,7 +35,7 @@ packages=(
 # Check if yay is installed, if not, install it
 if ! command -v yay > /dev/null 2>&1; then
   echo "yay not found. Installing yay..."
-  sudo pacman -S --needed --noconfirm yay
+  git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 fi
 
 # Update package lists and upgrade system
